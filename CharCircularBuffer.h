@@ -7,7 +7,7 @@
 using namespace std;
 
 /**
- * Create a circular buffer for c characters and reset it by calling reset().
+ * Create a circular buffer for "capacity" characters (set the value of capacity to c first) and reset it by calling reset().
  * To create a circular buffer, dynamically allocate memory for an array with c chars
  * and assign the starting address to the global unique pointer "buffer" (hint: you may need "make_unique").
  * @param c - capacity for the circular buffer
